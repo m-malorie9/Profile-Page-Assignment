@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arimo', sans-serif;
+    background-color: grey;
+    min-height: 1000px;
+}
+
+/* navigation bar top */
+
+.top {
+    background-color: rgb(20, 1, 37);
+    margin-bottom: 20px;
+}
+.nav {
+    background-color: rgb(20, 1, 37);
+    width: 1200px;
+    margin: 0 auto;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-between;
+    gap: 1.5em;
+
+}
+
+.nav2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5em;
+}
+
+.nav a {
+    color: hotpink;
+    text-decoration: none;
+}
+.nav-title {
+    color: lightskyblue;
+
+}
+.btn {
+    height: 50px;
+    width: 125px;
+    color: indigo;
+    background-color: lightblue;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+/* navigation bar bottom */
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+}
+
+.col1, .col2 {
+    flex: 2;
+    margin: 10px;
+    
+}
+.col1 {
+    flex: 2;
+    height: 200px;
+}
+
+.col2 {
+    flex: 1;
+}
+/* .flex-container {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+/* profile card top */
+
+.header {
+    background-color: blueviolet;
+    height: 150px;
+    width: 100%;
+    position: relative;
+}
+.usercard {
+    width: 100%;
+    background-color: whitesmoke;
+    margin-bottom: 20px;
+}
+.picture {
+    border-radius: 50%;
+    background-color: floralwhite;
+    height: 175px;
+    width: 175px;
+    position: absolute;
+    bottom: -70px;
+    left: 20px;
+}
+.cardbody {
+    margin-top: 100px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.mapicon {
+    height: 20px;
+}
+.gearicon{
+    height: 20px;
+    
+}
+.cardbody a {
+    text-decoration: none;
+}
+/* profile card bottom */
+
+/* request box top */
+
+.users {
+    border-radius: 50%;
+    height: 45px;
+    margin-right: 10px;
+}
+.icons {
+    height: 20px;
+}
+
+.reqhead, .friendhead, .eduhead {
+    background-color: indigo;
+    padding: 10px;
+    color: thistle;
+    font-size: 20px;
+}
+.reqbody, .friendbody, .edubox {
+    background-color: whitesmoke;
+
+
+}
+.requser, .frienduser {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+.start, .end {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 25px;
+    
+}
+.end{
+    gap: 10px;
+}
+.friendbox {
+    margin-top: 35px;
+}
+.viewmore {
+    padding: 20px;
+}
+
+/* request box bottom */
+
+.education {
+    margin-top: 30px;
+}
+
+.date {
+    color: gray;
+    font-size: 20px;
+}
+
+.connections {
+    background-color: lightslategray;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.edubox {
+    padding-left: 20px;
+}
+
